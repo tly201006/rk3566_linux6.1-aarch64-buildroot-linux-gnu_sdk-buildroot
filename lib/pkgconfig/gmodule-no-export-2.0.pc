@@ -1,0 +1,13 @@
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+gmodule_supported=true
+
+Name: GModule
+Description: Dynamic module loader for GLib
+Version: 2.76.1
+Requires: glib-2.0
+Libs: -L${libdir} -lgmodule-2.0 -pthread
+Libs.private: -ldl
+Cflags: -I${includedir} -pthread

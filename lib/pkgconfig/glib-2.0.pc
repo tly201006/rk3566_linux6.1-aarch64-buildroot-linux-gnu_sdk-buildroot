@@ -1,0 +1,17 @@
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+bindir=${prefix}/bin
+girdir=${libdir}/../share/gir-1.0
+glib_genmarshal=${bindir}/glib-genmarshal
+gobject_query=${bindir}/gobject-query
+glib_mkenums=${bindir}/glib-mkenums
+
+Name: GLib
+Description: C Utility Library
+Version: 2.76.1
+Requires.private: libpcre2-8 >= 10.32
+Libs: -L${libdir} -lglib-2.0
+Libs.private: -lm -pthread
+Cflags: -I${includedir}/glib-2.0 -I${libdir}/glib-2.0/include

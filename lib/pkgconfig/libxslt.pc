@@ -1,0 +1,13 @@
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+
+Name: libxslt
+Version: 1.1.39
+Description: XSLT library version 2.
+Requires: libxml-2.0
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lxslt
+Libs.private: -lm

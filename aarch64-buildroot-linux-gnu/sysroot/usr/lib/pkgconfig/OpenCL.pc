@@ -1,0 +1,10 @@
+prefix=/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: OpenCL
+Description: Mali GPU User-Space Binary Driver Wrappers
+Version: 3.0
+Requires: libdrm, wayland-client, wayland-server
+Libs: -L${libdir} -lmali-hook -Wl,--whole-archive -lmali-hook-injector -Wl,--no-whole-archive -lmali
+Cflags: -I${includedir} -DCL_TARGET_OPENCL_VERSION=300

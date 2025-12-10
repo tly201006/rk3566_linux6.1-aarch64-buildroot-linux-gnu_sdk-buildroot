@@ -1,0 +1,5 @@
+#!/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/python3.11
+
+import pydoc
+if __name__ == '__main__':
+    pydoc.cli()

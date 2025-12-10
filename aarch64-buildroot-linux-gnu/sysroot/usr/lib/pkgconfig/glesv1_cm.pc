@@ -1,0 +1,10 @@
+prefix=/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+Name: glesv1_cm
+Description: Mali GPU User-Space Binary Driver Wrappers
+Version: 7.10
+Requires: libdrm, wayland-client, wayland-server
+Libs: -L${libdir} -lmali-hook -Wl,--whole-archive -lmali-hook-injector -Wl,--no-whole-archive -lmali
+Cflags: -I${includedir}

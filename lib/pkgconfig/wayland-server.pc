@@ -1,0 +1,14 @@
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+datarootdir=${prefix}/share
+pkgdatadir=${pc_sysrootdir}${datarootdir}/wayland
+
+Name: Wayland Server
+Description: Server side implementation of the Wayland protocol
+Version: 1.23.1
+Requires.private: libffi
+Libs: -L${libdir} -lwayland-server
+Libs.private: -lm -pthread -lrt
+Cflags: -I${includedir}
