@@ -4,7 +4,7 @@
 
 my $config_tag1 = '5.38.2 - undisclosed-time';
 
-my $patchlevel_date = 1762136208;
+my $patchlevel_date = 1765593614;
 my @patches = Config::local_patches();
 my $patch_tags = join "", map /(\S+)/ ? "+$1 " : (), @patches;
 

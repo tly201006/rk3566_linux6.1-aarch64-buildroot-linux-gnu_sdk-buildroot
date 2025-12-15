@@ -11,7 +11,7 @@
  * Source directory  : 
  * Configuration time: undisclosed-time
  * Configured by     : 
- * Target system     : Buildroot -gc204642c0
+ * Target system     : Buildroot -g227af7de1-dirty
  */
 
 #ifndef _config_h_

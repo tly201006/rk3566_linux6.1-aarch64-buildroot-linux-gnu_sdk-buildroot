@@ -11,7 +11,7 @@ dlname='libudev.so.1'
 library_names='libudev.so.1.6.3 libudev.so.1 libudev.so'
 
 # The name of the static archive.
-old_library=''
+old_library='libudev.a'
 
 # Linker flags that cannot go in dependency_libs.
 inherited_linker_flags=''

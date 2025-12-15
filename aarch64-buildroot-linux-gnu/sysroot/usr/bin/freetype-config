@@ -45,7 +45,7 @@ else
 
   cflags="-I${SYSROOT}$includedir/freetype2"
   dynamic_libs="-lfreetype"
-  static_libs="-lfreetype -L$(dirname $(readlink -e $0))/../../../../bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lz -L$(dirname $(readlink -e $0))/../../../../bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lpng16 -lm -lz -lm -L$(dirname $(readlink -e $0))/../../../../bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -L$(dirname $(readlink -e $0))/../../../../bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lz"
+  static_libs="-lfreetype -L$(dirname $(readlink -e $0))/../../../../bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lz -lbz2 -L$(dirname $(readlink -e $0))/../../../../bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lpng16 -lm -lz -lm -L$(dirname $(readlink -e $0))/../../../../bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -L$(dirname $(readlink -e $0))/../../../../bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib -lz"
   if test "${SYSROOT}$libdir" != "/usr/lib"   &&
      test "${SYSROOT}$libdir" != "/usr/lib64" ; then
     libs_L="-L${SYSROOT}$libdir"

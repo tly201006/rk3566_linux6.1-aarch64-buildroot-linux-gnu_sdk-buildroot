@@ -17,7 +17,7 @@ old_library=''
 inherited_linker_flags=' -pthread'
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib/libfreetype.la /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib/libpng16.la -lz -lpthread /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib/libexpat.la -lm'
+dependency_libs=' -L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib/libfreetype.la -lbz2 /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib/libpng16.la -lz -lpthread /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/../aarch64-buildroot-linux-gnu/sysroot/usr/lib/libexpat.la -lm'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
