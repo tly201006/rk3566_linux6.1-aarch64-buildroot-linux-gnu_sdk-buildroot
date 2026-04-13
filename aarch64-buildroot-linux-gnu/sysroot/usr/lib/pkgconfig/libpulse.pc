@@ -6,7 +6,7 @@ modlibexecdir=/usr/lib/pulseaudio/modules
 
 Name: libpulse
 Description: PulseAudio Client Interface
-Version: 16.1
+Version: 17.0
 Libs: -L${libdir} -lpulse -pthread
-Libs.private: -L${libdir}/pulseaudio -lpulsecommon-16.1
+Libs.private: -L${libdir}/pulseaudio -lpulsecommon-17.0
 Cflags: -I${includedir} -D_REENTRANT

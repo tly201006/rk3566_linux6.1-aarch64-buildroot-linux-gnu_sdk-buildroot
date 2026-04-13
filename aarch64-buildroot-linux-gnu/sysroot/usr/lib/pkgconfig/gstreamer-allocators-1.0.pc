@@ -13,7 +13,7 @@ pluginscannerdir=${libexecdir}/gstreamer-1.0
 
 Name: gstreamer-allocators-1.0
 Description: Allocators implementation
-Version: 1.24.11
+Version: 1.24.13
 Requires: libdrm >=  2.4.98, gstreamer-1.0 >=  1.24.0
 Libs: -L${libdir} -lgstallocators-1.0
 Cflags: -I${includedir}/gstreamer-1.0

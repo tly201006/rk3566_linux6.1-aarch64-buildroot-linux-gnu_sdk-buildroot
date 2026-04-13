@@ -36,7 +36,7 @@ LANGUAGE=C;	export LANGUAGE
 LC_ALL=C;	export LC_ALL
 LC_CTYPE=C;	export LC_CTYPE
 
-prefix="/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host"
+prefix="/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host"
 exec_prefix="${prefix}"
 
 bindir="${exec_prefix}/bin"
@@ -101,7 +101,7 @@ fi
 # There is no portable way to find the list of standard library directories.
 # Require a POSIX shell anyway, to keep this simple.
 lib_flags=
-for opt in -L$libdir -L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib  $LIBS
+for opt in -L$libdir -L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib  $LIBS
 do
 	case $opt in
 	-specs*) # ignore linker specs-files which were used to build library
@@ -283,7 +283,7 @@ ENDECHO
 		echo "/usr/share/terminfo"
 		;;
 	--terminfo-dirs)
-		echo "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/terminfo"
+		echo "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/terminfo"
 		;;
 	--termpath)
 		echo ""

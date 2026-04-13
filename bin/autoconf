@@ -29,7 +29,7 @@ use warnings FATAL => 'all';
 
 BEGIN
 {
-  my $pkgdatadir = $ENV{'autom4te_perllibdir'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/autoconf';
+  my $pkgdatadir = $ENV{'autom4te_perllibdir'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/autoconf';
   unshift @INC, $pkgdatadir;
 
   # Override SHELL.  On DJGPP SHELL may not be set to a shell
@@ -44,8 +44,8 @@ use Autom4te::Channels qw(msg);
 use Autom4te::General;
 
 # Lib files.
-my $autom4te = $ENV{'AUTOM4TE'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/autom4te';
-my $trailer_m4 = $ENV{'trailer_m4'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/autoconf/autoconf/trailer.m4';
+my $autom4te = $ENV{'AUTOM4TE'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/autom4te';
+my $trailer_m4 = $ENV{'trailer_m4'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/autoconf/autoconf/trailer.m4';
 
 # $HELP
 # -----

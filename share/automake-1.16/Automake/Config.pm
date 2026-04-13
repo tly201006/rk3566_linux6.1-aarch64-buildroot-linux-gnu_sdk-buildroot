@@ -34,7 +34,7 @@ our $PACKAGE = 'automake';
 our $PACKAGE_BUGREPORT = 'bug-automake@gnu.org';
 our $VERSION = '1.16.5';
 our $RELEASE_YEAR = '2021';
-our $libdir = $ENV{"AUTOMAKE_LIBDIR"} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/automake-1.16';
+our $libdir = $ENV{"AUTOMAKE_LIBDIR"} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/automake-1.16';
 
 our $perl_threads = 0;
 # We need at least this version for CLONE support.

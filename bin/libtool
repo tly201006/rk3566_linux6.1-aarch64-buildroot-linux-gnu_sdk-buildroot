@@ -168,7 +168,7 @@ lock_old_archive_extraction=no
 LTCC="/usr/bin/gcc"
 
 # LTCC compiler flags.
-LTCFLAGS="-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include"
+LTCFLAGS="-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include"
 
 # Take the output of nm and produce a listing of raw symbols and C names.
 global_symbol_pipe="sed -n -e 's/^.*[	 ]\\([ABCDGIRSTW][ABCDGIRSTW]*\\)[	 ][	 ]*\\([_A-Za-z][_A-Za-z0-9]*\\)\$/\\1 \\2 \\2/p' | sed '/ __gnu_lto/d'"

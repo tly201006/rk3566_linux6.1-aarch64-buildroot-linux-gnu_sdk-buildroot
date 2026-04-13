@@ -12,7 +12,7 @@
 #include <linux/v4l2-controls.h>
 #include <linux/rk-camera-module.h>
 
-#define RKISP_API_VERSION		KERNEL_VERSION(3, 0, 0)
+#define RKISP_API_VERSION		KERNEL_VERSION(3, 2, 0)
 
 /****************ISP SUBDEV IOCTL*****************************/
 
@@ -99,6 +99,9 @@
 
 #define RKISP_CMD_AIAWB_BUF \
 	_IOWR('V', BASE_VIDIOC_PRIVATE + 29, struct rkisp_aiawb_buffd)
+
+#define RKISP_CMD_BTNR_WGT_READY \
+	_IO('V', BASE_VIDIOC_PRIVATE + 30)
 
 /****************ISP VIDEO IOCTL******************************/
 
@@ -331,12 +334,13 @@
 
 #define ISP2X_FBCBUF_FD_NUM		64
 
-#define ISP2X_MESH_BUF_NUM		2
+#define ISP2X_MESH_BUF_NUM		3
 
 #define RKISP_BUFFER_MAX		8
 struct rkisp_buf_info {
 	int buf_cnt;
 	int buf_size;
+	int buf_stride;
 	int buf_fd[RKISP_BUFFER_MAX];
 } __attribute__ ((packed));
 
@@ -436,6 +440,9 @@ struct rkisp_aiisp_ev_info {
 	int vpsl_index;
 
 	int aiisp_index;
+
+	int y_src_index;
+	int y_dest_index;
 } __attribute__ ((packed));
 
 struct rkisp_aiisp_st {
@@ -449,17 +456,24 @@ struct rkisp_aiisp_st {
 
 	int aipre_gain_index;
 	int vpsl_index;
+
+	int y_src_index;
+	int y_dest_index;
 } __attribute__ ((packed));
 
 /* struct rkisp_aiisp_cfg
- * mode: 0: disable aiisp, 1:enable aiisp
- * wr_linecnt: aiisp write irq line
- * rd_linecnt: aiisp read irq line
+ * mode: 0:isp whole
+ *       1:isp divided into isp_fe and isp_be
+ *       2:isp divided into isp_fe isp_fe and isp_be
+ * wr_linecnt: btnr iir write irq line
+ * rd_linecnt: isp_be read irq line
+ * wr_mode: 0:frame with only one RKISP_AIISP_WR_LINECNT_ID event, else event per wr_linecnt
  */
 struct rkisp_aiisp_cfg {
 	int mode;
 	int wr_linecnt;
 	int rd_linecnt;
+	int wr_mode;
 } __attribute__ ((packed));
 
 #define VPSL_YRAW_CHN_MAX	6
@@ -481,9 +495,11 @@ struct rkisp_bnr_buf_info {
 			struct rkisp_buf_info gain;
 			struct rkisp_buf_info aipre_gain;
 			struct rkisp_buf_info vpsl;
+			struct rkisp_buf_info y_src;
 			__u8 iir_rw_fmt;
 			__u8 gain_mode;
 			__u8 yraw_sel;
+			__u8 aibnr_l2;
 			/* yraw ds_2x2 to ds_64x64 buf offset and stride */
 			__u32 vpsl_yraw_offs[VPSL_YRAW_CHN_MAX];
 			__u32 vpsl_yraw_stride[VPSL_YRAW_CHN_MAX];
@@ -2211,6 +2227,7 @@ struct rkisp_thunderboot_resmem_head {
 	__u32 pre_buf_num;
 	__u32 pre_buf_addr[MAX_PRE_BUF_NUM];
 	__u32 pre_buf_timestamp[MAX_PRE_BUF_NUM];
+	__u32 rkisp_tb_resmem_head_size;
 } __attribute__ ((packed));
 
 /**

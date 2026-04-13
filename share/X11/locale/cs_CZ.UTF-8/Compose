@@ -4,7 +4,7 @@
 #   by James Cloos <cloos@jhcloos.com>
 #	based on bug report by Vladimír Marek <vlmarek@volny.cz>
 # Use the sequences from en_US.UTF-8 as the basis:
-include "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/X11/locale/en_US.UTF-8/Compose"
+include "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/X11/locale/en_US.UTF-8/Compose"
 #  Overriding U with caron:
 <dead_caron> <u>                        : "ů"   U016F  #  LATIN SMALL LETTER U WITH RING ABOVE
 <dead_caron> <U>                        : "Ů"   U016E  #  LATIN CAPITAL LETTER U WITH RING ABOVE

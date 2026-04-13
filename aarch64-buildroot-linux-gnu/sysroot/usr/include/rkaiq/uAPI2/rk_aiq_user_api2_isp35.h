@@ -100,5 +100,9 @@
 #include "uAPI2/rk_aiq_user_api2_amtd.h"
 #include "isp/rk_aiq_isp_airms.h"
 #include "uAPI2/rk_aiq_user_api2_airms.h"
+#include "isp/rk_aiq_isp_aiynr.h"
+#include "uAPI2/rk_aiq_user_api2_aiynr.h"
+#include "isp/rk_aiq_isp_fpnSw.h"
+#include "uAPI2/rk_aiq_user_api2_fpnSw.h"
 
 #endif

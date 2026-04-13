@@ -27,7 +27,7 @@
 MACHINE="x86_64"
 OS="linux-gnu"
 CC="/usr/bin/gcc"
-CFLAGS="-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include -DNDEBUG"
+CFLAGS="-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include -DNDEBUG"
 VERSION="5.3.0"
 MACHTYPE="x86_64-pc-linux-gnu"
 

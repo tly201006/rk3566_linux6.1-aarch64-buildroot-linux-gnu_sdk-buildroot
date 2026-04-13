@@ -43,15 +43,15 @@ version=2.76.1
 try_ln_s=:
 
 # Directory where the sources are stored.
-prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host
 case `uname` in
 MINGW32*)
     prefix="`dirname $0`/.."
     ;;
 esac
 
-datarootdir=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share
-datadir=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share
+datarootdir=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share
+datadir=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share
 
 gettext_dir=$datadir/glib-2.0/gettext
 

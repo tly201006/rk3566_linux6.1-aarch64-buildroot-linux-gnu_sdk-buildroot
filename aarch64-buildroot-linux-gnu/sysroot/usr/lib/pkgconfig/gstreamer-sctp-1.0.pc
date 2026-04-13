@@ -12,7 +12,7 @@ typelibdir=${libdir}/girepository-1.0
 
 Name: gstreamer-sctp-1.0
 Description: SCTP helper functions
-Version: 1.24.11
+Version: 1.24.13
 Requires: gstreamer-1.0 >=  1.24.0
 Requires.private: gstreamer-base-1.0 >=  1.24.0
 Libs: -L${libdir} -lgstsctp-1.0

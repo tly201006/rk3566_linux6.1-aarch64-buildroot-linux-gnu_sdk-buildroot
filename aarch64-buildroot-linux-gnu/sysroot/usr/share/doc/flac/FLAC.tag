@@ -2,7 +2,7 @@
 <tagfile>
   <compound kind="file">
     <name>decoder.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC++/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC++/</path>
     <filename>decoder_8h</filename>
     <includes id="_09_2export_8h" name="export.h" local="yes" imported="no">export.h</includes>
     <includes id="stream__decoder_8h" name="stream_decoder.h" local="yes" imported="no">FLAC/stream_decoder.h</includes>
@@ -12,7 +12,7 @@
   </compound>
   <compound kind="file">
     <name>encoder.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC++/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC++/</path>
     <filename>encoder_8h</filename>
     <includes id="_09_2export_8h" name="export.h" local="yes" imported="no">export.h</includes>
     <includes id="stream__encoder_8h" name="stream_encoder.h" local="yes" imported="no">FLAC/stream_encoder.h</includes>
@@ -24,7 +24,7 @@
   </compound>
   <compound kind="file">
     <name>callback.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
     <filename>callback_8h</filename>
     <class kind="struct">FLAC__IOCallbacks</class>
     <member kind="typedef">
@@ -79,7 +79,7 @@
   </compound>
   <compound kind="file">
     <name>export.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
     <filename>export_8h</filename>
     <member kind="define">
       <type>#define</type>
@@ -119,7 +119,7 @@
   </compound>
   <compound kind="file">
     <name>export.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC++/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC++/</path>
     <filename>_09_2export_8h</filename>
     <member kind="define">
       <type>#define</type>
@@ -152,7 +152,7 @@
   </compound>
   <compound kind="file">
     <name>format.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
     <filename>format_8h</filename>
     <includes id="export_8h" name="export.h" local="yes" imported="no">export.h</includes>
     <class kind="struct">FLAC__EntropyCodingMethod_PartitionedRiceContents</class>
@@ -1272,7 +1272,7 @@
   </compound>
   <compound kind="file">
     <name>metadata.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
     <filename>metadata_8h</filename>
     <includes id="export_8h" name="export.h" local="yes" imported="no">export.h</includes>
     <includes id="callback_8h" name="callback.h" local="yes" imported="no">callback.h</includes>
@@ -2154,7 +2154,7 @@
   </compound>
   <compound kind="file">
     <name>metadata.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC++/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC++/</path>
     <filename>_09_2metadata_8h</filename>
     <includes id="_09_2export_8h" name="export.h" local="yes" imported="no">export.h</includes>
     <includes id="metadata_8h" name="metadata.h" local="yes" imported="no">FLAC/metadata.h</includes>
@@ -2240,7 +2240,7 @@
   </compound>
   <compound kind="file">
     <name>stream_decoder.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
     <filename>stream__decoder_8h</filename>
     <includes id="export_8h" name="export.h" local="yes" imported="no">export.h</includes>
     <includes id="format_8h" name="format.h" local="yes" imported="no">format.h</includes>
@@ -2871,7 +2871,7 @@
   </compound>
   <compound kind="file">
     <name>stream_encoder.h</name>
-    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
+    <path>/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/flac-1.4.3/include/FLAC/</path>
     <filename>stream__encoder_8h</filename>
     <includes id="export_8h" name="export.h" local="yes" imported="no">export.h</includes>
     <includes id="format_8h" name="format.h" local="yes" imported="no">format.h</includes>

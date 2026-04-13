@@ -13,7 +13,7 @@ pluginscannerdir=${libexecdir}/gstreamer-1.0
 
 Name: gstreamer-tag-1.0
 Description: Tag base classes and helper functions
-Version: 1.24.11
+Version: 1.24.13
 Requires: gstreamer-1.0 >=  1.24.0
 Requires.private: gstreamer-base-1.0 >=  1.24.0, zlib
 Libs: -L${libdir} -lgsttag-1.0

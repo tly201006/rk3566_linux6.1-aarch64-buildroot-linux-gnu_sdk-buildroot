@@ -34,7 +34,7 @@ snap_size_mb=256
 fstrim=0
 reap=0
 e2fsck_opts=""
-conffile="/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/etc/e2scrub.conf"
+conffile="/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/etc/e2scrub.conf"
 
 test -f "${conffile}" && . "${conffile}"
 
@@ -187,16 +187,16 @@ check() {
 	# non-zero status (errors fixed or remaining) then this fs is bad.
 	E2FSCK_FIXES_ONLY=1
 	export E2FSCK_FIXES_ONLY
-	${DBG} "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/sbin/e2fsck" -E journal_only -p ${e2fsck_opts} "${snap_dev}" || return $?
-	${DBG} "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/sbin/e2fsck" -f -y ${e2fsck_opts} "${snap_dev}"
+	${DBG} "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/sbin/e2fsck" -E journal_only -p ${e2fsck_opts} "${snap_dev}" || return $?
+	${DBG} "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/sbin/e2fsck" -f -y ${e2fsck_opts} "${snap_dev}"
 }
 
 mark_clean() {
-	${DBG} "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/sbin/tune2fs" -C 0 -T "${start_time}" "${dev}"
+	${DBG} "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/sbin/tune2fs" -C 0 -T "${start_time}" "${dev}"
 }
 
 mark_corrupt() {
-	${DBG} "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/sbin/tune2fs" -E force_fsck "${dev}"
+	${DBG} "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/sbin/tune2fs" -E force_fsck "${dev}"
 }
 
 setup() {

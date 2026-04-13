@@ -573,6 +573,7 @@ typedef struct {
     float pdConfdThresh;
     float stablePdRatio;
     float stableCntRatio;
+    float badPdRatio;
     unsigned short convergedInfPdThresh;
     unsigned short convergedMacPdThresh;
     unsigned short defocusInfPdThresh;
@@ -597,6 +598,8 @@ typedef struct rk_aiq_pdaf_resolution_s {
     unsigned short pdCropY;
     unsigned short pdBaseWidth;
     unsigned short pdBaseHeight;
+    unsigned short pdHBinMode;
+    unsigned short pdVBinMode;
 } rk_aiq_pdaf_resolution_t;
 
 typedef struct {
@@ -634,6 +637,11 @@ typedef struct {
     short pdTargetOffset;
     unsigned short pdNumJobs;
     bool pdUseFvTrigger;
+    unsigned short pdUnStableCnt_thred;
+    unsigned short pdSearchCnt_thred;
+    unsigned short pdChgDirCnt_thred;
+    bool pdFocusNearObject;
+    float pdNearObjectRatio;
     rk_aiq_pdaf_resolution_t pdResoInf;
 } rk_aiq_pdaf_algo_config_t;
 

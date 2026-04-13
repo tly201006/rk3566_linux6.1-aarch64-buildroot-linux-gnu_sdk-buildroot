@@ -25,7 +25,7 @@ use warnings FATAL => 'all';
 
 BEGIN
 {
-  unshift (@INC, '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/automake-1.16')
+  unshift (@INC, '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/automake-1.16')
     unless $ENV{AUTOMAKE_UNINSTALLED};
 }
 
@@ -65,8 +65,8 @@ $perl_threads = 0;
 # ACLOCAL_PATH environment variable, and reset with the '--system-acdir'
 # option.
 my @user_includes = ();
-my @automake_includes = ('/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/aclocal-' . $APIVERSION);
-my @system_includes = ('/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/aclocal');
+my @automake_includes = ('/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/aclocal-' . $APIVERSION);
+my @system_includes = ('/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/aclocal');
 
 # Whether we should copy M4 file in $user_includes[0].
 my $install = 0;

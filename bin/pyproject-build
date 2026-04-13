@@ -1,4 +1,6 @@
-#!/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/python
+#!/bin/sh
+'''exec' /home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/python "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

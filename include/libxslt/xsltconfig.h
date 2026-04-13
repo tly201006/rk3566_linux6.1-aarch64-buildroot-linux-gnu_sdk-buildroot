@@ -132,7 +132,7 @@ extern "C" {
 #ifndef WITH_MODULES
 #define WITH_MODULES
 #endif
-#define LIBXSLT_DEFAULT_PLUGINS_PATH() "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/libxslt-plugins"
+#define LIBXSLT_DEFAULT_PLUGINS_PATH() "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/libxslt-plugins"
 #endif
 
 /**

@@ -1,0 +1,10 @@
+#!/bin/sh
+'''exec' /home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/flutter/sdk/.cache/.vpython-root/store/python_venv-9cfkh1tianb9o5sdobl6bg0uvk/contents/bin/python3 "$0" "$@"
+' '''
+# -*- coding: utf-8 -*-
+import re
+import sys
+from wheel.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())

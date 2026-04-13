@@ -1,0 +1,13 @@
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/aarch64-buildroot-linux-gnu/sysroot/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include/qt5
+
+
+Name: Qt5 Concurrent
+Description: Qt Concurrent module
+Version: 5.15.11
+Libs: -L${libdir} -lQt5Concurrent 
+Cflags: -DQT_CONCURRENT_LIB -I${includedir}/QtConcurrent -I${includedir}
+Requires: Qt5Core
+

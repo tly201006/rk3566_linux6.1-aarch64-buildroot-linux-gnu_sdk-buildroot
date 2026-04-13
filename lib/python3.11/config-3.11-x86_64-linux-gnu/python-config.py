@@ -1,4 +1,4 @@
-#!/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/python3.11
+#!/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/python3.11
 # -*- python -*-
 
 # Keep this script in sync with python-config.sh.in

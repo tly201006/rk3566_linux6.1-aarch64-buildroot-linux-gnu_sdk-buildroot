@@ -1991,12 +1991,13 @@ struct weston_pointer_constraint {
 };
 
 enum weston_surface_flags {
-	SURFACE_NO_FOCUS	= 1 << 0,
-	SURFACE_STAY_ON_TOP	= 1 << 1,
-	SURFACE_STAY_ON_BOTTOM	= 1 << 2,
-	SURFACE_BLOCKED		= 1 << 3,
-	SURFACE_TRANS_INPUT	= 1 << 4,
-	SURFACE_ACTIVATE	= 1 << 5,
+	SURFACE_NO_FOCUS		= 1 << 0,
+	SURFACE_STAY_ON_TOP		= 1 << 1,
+	SURFACE_STAY_ON_BOTTOM		= 1 << 2,
+	SURFACE_BLOCKED			= 1 << 3,
+	SURFACE_TRANS_INPUT		= 1 << 4,
+	SURFACE_ACTIVATE		= 1 << 5,
+	SURFACE_DEFAULT_SECONDARY	= 1 << 6,
 };
 
 #define WESTON_SURFACE_FLAGS_STAY_MASK \

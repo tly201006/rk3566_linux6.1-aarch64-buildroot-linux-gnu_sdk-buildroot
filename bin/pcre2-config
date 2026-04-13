@@ -1,6 +1,6 @@
 #!/bin/sh
 
-prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host
 exec_prefix=${prefix}
 exec_prefix_set=no
 

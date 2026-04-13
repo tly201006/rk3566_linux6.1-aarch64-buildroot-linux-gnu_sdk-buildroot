@@ -1,0 +1,14 @@
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/aarch64-buildroot-linux-gnu/sysroot/usr
+exec_prefix=${prefix}
+libdir=/usr/lib
+includedir=/usr/include/qt5
+
+
+Name: Qt5 OpenGLExtensions
+Description: Qt OpenGLExtensions module
+Version: 5.15.11
+Libs: -L${libdir} -lQt5OpenGLExtensions 
+Libs.private: -latomic /usr/lib/libQt5Gui.so /usr/lib/libQt5Core.so -lpthread -L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -lmali-hook -lmali-hook-injector -lmali -ldrm -lwayland-client -lwayland-server -lrt -lpthread -ldl  
+Cflags: -DQT_OPENGLEXTENSIONS_LIB -I${includedir}/QtOpenGLExtensions -I${includedir}
+Requires: Qt5Core Qt5Gui
+

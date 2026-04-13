@@ -28,7 +28,7 @@ use warnings FATAL => 'all';
 
 BEGIN
 {
-  my $pkgdatadir = $ENV{'autom4te_perllibdir'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/autoconf';
+  my $pkgdatadir = $ENV{'autom4te_perllibdir'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/autoconf';
   unshift @INC, $pkgdatadir;
 
   # Override SHELL.  On DJGPP SHELL may not be set to a shell
@@ -48,7 +48,7 @@ use Autom4te::General;
 use Autom4te::XFile;
 
 # Data directory.
-my $pkgdatadir = $ENV{'AC_MACRODIR'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/autoconf';
+my $pkgdatadir = $ENV{'AC_MACRODIR'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/autoconf';
 
 # $LANGUAGE{LANGUAGE} -- Automatic options for LANGUAGE.
 my %language;
@@ -91,7 +91,7 @@ my @include;
 my $freeze = 0;
 
 # $M4.
-my $m4 = $ENV{"M4"} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/m4';
+my $m4 = $ENV{"M4"} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/m4';
 # Some non-GNU m4's don't reject the --help option, so give them /dev/null.
 fatal "need GNU m4 1.4 or later: $m4"
   if system "$m4 --help </dev/null 2>&1 | grep reload-state >/dev/null";

@@ -148,10 +148,10 @@ hunk.
 
 #if !defined(PERL_PATCHLEVEL_H_IMPLICIT) && !defined(LOCAL_PATCH_COUNT)
 #  if defined(PERL_IS_MINIPERL)
-#    define PERL_PATCHNUM "Buildroot -g227af7de1-dirty miniperl"
+#    define PERL_PATCHNUM "Buildroot -g2c3c90c33-dirty miniperl"
 #    define PERL_GIT_UNPUSHED_COMMITS /*leave-this-comment*/
 #  elif defined(PERL_MICRO)
-#    define PERL_PATCHNUM "Buildroot -g227af7de1-dirty microperl"
+#    define PERL_PATCHNUM "Buildroot -g2c3c90c33-dirty microperl"
 #    define PERL_GIT_UNPUSHED_COMMITS /*leave-this-comment*/
 #  else
 #    include "git_version.h"

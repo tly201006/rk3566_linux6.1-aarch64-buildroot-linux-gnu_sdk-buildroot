@@ -1,0 +1,15 @@
+QT.core_private.VERSION = 5.15.11
+QT.core_private.name = QtCore
+QT.core_private.module =
+QT.core_private.libs = $$QT_MODULE_LIB_BASE
+QT.core_private.includes = $$QT_MODULE_INCLUDE_BASE/QtCore/5.15.11 $$QT_MODULE_INCLUDE_BASE/QtCore/5.15.11/QtCore
+QT.core_private.frameworks =
+QT.core_private.depends = core
+QT.core_private.uses =
+QT.core_private.module_config = v2 internal_module
+QT.core_private.enabled_features = clock-gettime datetimeparser doubleconversion futimens getauxval getentropy glib glibc hijricalendar inotify linkat mimetype-database poll_ppoll renameat2 sha3-fast statx
+QT.core_private.disabled_features = etw futimes gnu-libiconv iconv icu journald lttng poll_poll poll_pollts poll_select posix-libiconv system-pcre2 slog2 syslog system-doubleconversion
+QMAKE_INCDIR_GLIB = /home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/aarch64-buildroot-linux-gnu/sysroot/usr/include/glib-2.0 /home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib/glib-2.0/include
+QMAKE_LIBS_LIBRT = 
+QMAKE_LIBS_GLIB = -L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib -lgthread-2.0 -lglib-2.0
+QMAKE_LIBS_LIBATOMIC = 

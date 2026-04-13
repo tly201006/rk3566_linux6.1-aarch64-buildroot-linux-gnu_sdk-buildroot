@@ -30,12 +30,12 @@ fatal ()
 }
 
 # strip /bin/fakeroot to find install prefix
-FAKEROOT_PREFIX=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
-FAKEROOT_BINDIR=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin
+FAKEROOT_PREFIX=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host
+FAKEROOT_BINDIR=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin
 
 USEABSLIBPATH=0
 FAKEROOT_LIB=libfakeroot.so
-PATHS=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib:${FAKEROOT_PREFIX}/lib64/libfakeroot:${FAKEROOT_PREFIX}/lib32/libfakeroot
+PATHS=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib:${FAKEROOT_PREFIX}/lib64/libfakeroot:${FAKEROOT_PREFIX}/lib32/libfakeroot
 FAKED=${FAKEROOT_BINDIR}/faked
 
 FAKED_MODE="unknown-is-root"

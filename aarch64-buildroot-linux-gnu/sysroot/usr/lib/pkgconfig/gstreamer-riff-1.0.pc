@@ -13,7 +13,7 @@ pluginscannerdir=${libexecdir}/gstreamer-1.0
 
 Name: gstreamer-riff-1.0
 Description: RIFF helper functions
-Version: 1.24.11
+Version: 1.24.13
 Requires: gstreamer-1.0 >=  1.24.0
 Requires.private: gstreamer-audio-1.0, gstreamer-tag-1.0, gstreamer-base-1.0 >=  1.24.0, zlib
 Libs: -L${libdir} -lgstriff-1.0

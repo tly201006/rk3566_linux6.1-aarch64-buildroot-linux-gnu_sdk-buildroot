@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef __VPU_API_H__
-#define __VPU_API_H__
+#ifndef VPU_API_H
+#define VPU_API_H
 
 #include "rk_type.h"
 #include "mpp_err.h"
@@ -53,7 +53,7 @@
 #define VPU_OUTPUT_FORMAT_DYNCRANGE_SDR             (0x00000000)
 #define VPU_OUTPUT_FORMAT_DYNCRANGE_HDR10           (0x01000000)
 #define VPU_OUTPUT_FORMAT_DYNCRANGE_HDR_HLG         (0x02000000)
-#define VPU_OUTPUT_FORMAT_DYNCRANGE_HDR_DOLBY       (0x03000000)
+#define VPU_OUTPUT_FORMAT_DYNCRANGE_HDR_DLBY        (0x03000000)
 
 /**
  * @brief input picture type
@@ -517,4 +517,4 @@ void release_vpu_memory_pool_allocator(vpu_display_mem_pool *ipool);
 }
 #endif
 
-#endif /*__VPU_API_H__*/
+#endif /* VPU_API_H */

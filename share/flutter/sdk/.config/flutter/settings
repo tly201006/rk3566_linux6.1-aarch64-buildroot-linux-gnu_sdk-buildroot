@@ -1,0 +1,9 @@
+{
+  "enable-custom-devices": true,
+  "enable-linux-desktop": true,
+  "enable-android": false,
+  "enable-fuchsia": false,
+  "enable-ios": false,
+  "enable-macos-desktop": false,
+  "enable-windows-desktop": false
+}

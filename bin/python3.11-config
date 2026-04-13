@@ -24,7 +24,7 @@ installed_prefix ()
     echo $RESULT
 }
 
-prefix_build="/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host"
+prefix_build="/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host"
 prefix_real=$(installed_prefix "$0")
 
 # Use sed to fix paths from their built-to locations to their installed-to
@@ -36,7 +36,7 @@ exec_prefix=$(echo "$exec_prefix_build" | sed "s#^$exec_prefix_build#$prefix_rea
 exec_prefix_real=${prefix_real}
 includedir=$(echo "${prefix}/include" | sed "s#^$prefix_build#$prefix_real#")
 libdir=$(echo "${exec_prefix}/lib" | sed "s#^$prefix_build#$prefix_real#")
-CFLAGS=$(echo "-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include" | sed "s#^$prefix_build#$prefix_real#")
+CFLAGS=$(echo "-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include" | sed "s#^$prefix_build#$prefix_real#")
 VERSION="3.11"
 LIBM="-lm"
 LIBC=""

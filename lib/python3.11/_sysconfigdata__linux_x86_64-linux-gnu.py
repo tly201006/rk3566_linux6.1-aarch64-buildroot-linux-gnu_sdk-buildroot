@@ -12,12 +12,12 @@ build_time_vars = {'ABIFLAGS': '',
  'BASECFLAGS': '-Wsign-compare',
  'BASECPPFLAGS': '',
  'BASEMODLIBS': '',
- 'BINDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin',
- 'BINLIBDEST': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11',
+ 'BINDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin',
+ 'BINLIBDEST': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11',
  'BLDLIBRARY': '-L. -lpython3.11',
  'BLDSHARED': '/usr/bin/gcc -pthread -shared '
-              '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
-              '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+              '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
+              '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
               '-Wl,--enable-new-dtags',
  'BOOTSTRAP_HEADERS': '\\',
  'BUILDEXE': '',
@@ -27,28 +27,28 @@ build_time_vars = {'ABIFLAGS': '',
  'CC': '/usr/bin/gcc -pthread',
  'CCSHARED': '-fPIC',
  'CFLAGS': '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -O2 '
-           '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
+           '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
  'CFLAGSFORSHARED': '-fPIC',
  'CFLAGS_ALIASING': '',
  'CFLAGS_NODIST': '',
  'CONFIGFILES': 'configure configure.ac acconfig.h pyconfig.h.in '
                 'Makefile.pre.in',
  'CONFIGURE_CFLAGS': '-O2 '
-                     '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
+                     '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
  'CONFIGURE_CFLAGS_NODIST': '-std=c11 -Wextra -Wno-unused-parameter '
                             '-Wno-missing-field-initializers '
                             '-Wstrict-prototypes '
                             '-Werror=implicit-function-declaration '
                             '-fvisibility=hidden',
- 'CONFIGURE_CPPFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
- 'CONFIGURE_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
-                      '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+ 'CONFIGURE_CPPFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
+ 'CONFIGURE_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
+                      '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
                       '-Wl,--enable-new-dtags',
  'CONFIGURE_LDFLAGS_NODIST': '',
  'CONFIGURE_LDFLAGS_NOLTO': '',
- 'CONFIG_ARGS': "'--prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host' "
-                "'--sysconfdir=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/etc' "
-                "'--localstatedir=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/var' "
+ 'CONFIG_ARGS': "'--prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host' "
+                "'--sysconfdir=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/etc' "
+                "'--localstatedir=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/var' "
                 "'--enable-shared' '--disable-static' '--disable-gtk-doc' "
                 "'--disable-gtk-doc-html' '--disable-doc' '--disable-docs' "
                 "'--disable-documentation' '--disable-debug' '--with-xmlto=no' "
@@ -59,26 +59,26 @@ build_time_vars = {'ABIFLAGS': '',
                 "'--enable-unicodedata' '--disable-test-modules' "
                 "'--disable-idle3' '--disable-uuid' '--disable-ossaudiodev' "
                 "'--disable-ipv6' '--disable-bzip2' '--disable-curses' "
-                "'PKG_CONFIG=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/pkg-config' "
-                "'PKG_CONFIG_LIBDIR=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/pkgconfig:/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/pkgconfig' "
+                "'PKG_CONFIG=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/pkg-config' "
+                "'PKG_CONFIG_LIBDIR=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/pkgconfig:/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/pkgconfig' "
                 "'CC=/usr/bin/gcc' 'CFLAGS=-O2 "
-                "-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include' "
-                "'LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib "
-                '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+                "-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include' "
+                "'LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib "
+                '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
                 "-Wl,--enable-new-dtags' "
-                "'CPPFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include' "
+                "'CPPFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include' "
                 "'CPP=/usr/bin/cpp'",
- 'CONFINCLUDEDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
- 'CONFINCLUDEPY': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include/python3.11',
+ 'CONFINCLUDEDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
+ 'CONFINCLUDEPY': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include/python3.11',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8/coverage.info',
+ 'COVERAGE_INFO': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8/coverage.info',
  'COVERAGE_LCOV_OPTIONS': '--rc lcov_branch_coverage=1',
- 'COVERAGE_REPORT': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8/lcov-report',
+ 'COVERAGE_REPORT': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--rc lcov_branch_coverage=1 --branch-coverage '
                             '--title "CPython 3.11 LCOV report [commit $(shell '
                             ')]"',
  'CPPFLAGS': '-I. -I./Include '
-             '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
+             '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
  'CXX': '/usr/bin/g++ -pthread',
  'DECIMAL_CFLAGS': '-I./Modules/_decimal/libmpdec -DCONFIG_64=1 -DANSI=1 '
                    '-DHAVE_UINT128_T=1',
@@ -87,13 +87,13 @@ build_time_vars = {'ABIFLAGS': '',
  'DEEPFREEZE_DEPS': './Tools/scripts/deepfreeze.py _bootstrap_python '
                     './Programs/_freeze_module.py \\',
  'DEEPFREEZE_OBJS': 'Python/deepfreeze/deepfreeze.o',
- 'DESTDIRS': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host '
-             '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
-             '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11 '
-             '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11/lib-dynload',
- 'DESTLIB': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11',
+ 'DESTDIRS': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host '
+             '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
+             '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11 '
+             '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11/lib-dynload',
+ 'DESTLIB': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11',
  'DESTPATH': '',
- 'DESTSHARED': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11/lib-dynload',
+ 'DESTSHARED': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11/lib-dynload',
  'DFLAGS': '',
  'DIRMODE': 755,
  'DISABLED_EXTENSIONS': 'ossaudiodev _sqlite3 _codecs_kr _codecs_jp _codecs_cn '
@@ -621,12 +621,12 @@ build_time_vars = {'ABIFLAGS': '',
  'HAVE__GETPTY': 0,
  'HOSTRUNNER': '',
  'HOST_GNU_TYPE': 'x86_64-pc-linux-gnu',
- 'INCLDIRSTOMAKE': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
-                   '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
-                   '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include/python3.11 '
-                   '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include/python3.11',
- 'INCLUDEDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
- 'INCLUDEPY': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include/python3.11',
+ 'INCLDIRSTOMAKE': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
+                   '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
+                   '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include/python3.11 '
+                   '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include/python3.11',
+ 'INCLUDEDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
+ 'INCLUDEPY': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include/python3.11',
  'INSTALL': '/usr/bin/install -c',
  'INSTALL_DATA': '/usr/bin/install -c -m 644',
  'INSTALL_PROGRAM': '/usr/bin/install -c',
@@ -636,50 +636,50 @@ build_time_vars = {'ABIFLAGS': '',
  'IO_H': 'Modules/_io/_iomodule.h',
  'IO_OBJS': '\\',
  'LDCXXSHARED': '/usr/bin/g++ -pthread -shared',
- 'LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
-            '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+ 'LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
+            '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
             '-Wl,--enable-new-dtags',
  'LDFLAGS_NODIST': '',
  'LDLIBRARY': 'libpython3.11.so',
  'LDLIBRARYDIR': '',
  'LDSHARED': '/usr/bin/gcc -pthread -shared '
-             '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
-             '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+             '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
+             '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
              '-Wl,--enable-new-dtags',
  'LDVERSION': '3.11',
  'LIBC': '',
- 'LIBDEST': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11',
- 'LIBDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib',
+ 'LIBDEST': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11',
+ 'LIBDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib',
  'LIBEXPAT_A': 'Modules/expat/libexpat.a',
  'LIBEXPAT_CFLAGS': '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -O2 '
-                    '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                    '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                     '-std=c11 -Wextra -Wno-unused-parameter '
                     '-Wno-missing-field-initializers -Wstrict-prototypes '
                     '-Werror=implicit-function-declaration '
                     '-fvisibility=hidden  -I./Include/internal -I. -I./Include '
-                    '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                    '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                     '-fPIC -fPIC',
  'LIBEXPAT_HEADERS': '\\',
  'LIBEXPAT_OBJS': '\\',
- 'LIBFFI_INCLUDEDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
+ 'LIBFFI_INCLUDEDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
  'LIBM': '-lm',
  'LIBMPDEC_A': 'Modules/_decimal/libmpdec/libmpdec.a',
  'LIBMPDEC_CFLAGS': '-I./Modules/_decimal/libmpdec -DCONFIG_64=1 -DANSI=1 '
                     '-DHAVE_UINT128_T=1 -Wsign-compare -DNDEBUG -g -fwrapv -O3 '
                     '-Wall -O2 '
-                    '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                    '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                     '-std=c11 -Wextra -Wno-unused-parameter '
                     '-Wno-missing-field-initializers -Wstrict-prototypes '
                     '-Werror=implicit-function-declaration '
                     '-fvisibility=hidden  -I./Include/internal -I. -I./Include '
-                    '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                    '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                     '-fPIC -fPIC',
  'LIBMPDEC_HEADERS': '\\',
  'LIBMPDEC_OBJS': '\\',
  'LIBOBJDIR': 'Python/',
  'LIBOBJS': '',
- 'LIBPC': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/pkgconfig',
- 'LIBPL': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11/config-3.11-x86_64-linux-gnu',
+ 'LIBPC': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/pkgconfig',
+ 'LIBPL': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11/config-3.11-x86_64-linux-gnu',
  'LIBPYTHON': '',
  'LIBRARY': 'libpython3.11.a',
  'LIBRARY_DEPS': 'libpython3.11.a libpython3.11.so libpython3.so',
@@ -700,13 +700,13 @@ build_time_vars = {'ABIFLAGS': '',
  'LOCALMODLIBS': '',
  'MACHDEP': 'linux',
  'MACHDEP_OBJS': '',
- 'MACHDESTLIB': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11',
+ 'MACHDESTLIB': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11',
  'MACOSX_DEPLOYMENT_TARGET': '',
  'MAINCC': '/usr/bin/gcc -pthread',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 1,
  'MAKESETUP': './Modules/makesetup',
- 'MANDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/man',
+ 'MANDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/man',
  'MKDIR_P': '/bin/mkdir -p',
  'MODBUILT_NAMES': 'atexit  faulthandler  posix  _signal  _tracemalloc  '
                    '_codecs  _collections  errno  _io  itertools  _sre  '
@@ -733,8 +733,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_AUDIOOP_LDFLAGS': '-lm',
  'MODULE_AUDIOOP_STATE': 'yes',
  'MODULE_BINASCII_CFLAGS': '-DUSE_ZLIB_CRC32 '
-                           '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
- 'MODULE_BINASCII_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+                           '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
+ 'MODULE_BINASCII_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
                             '-lz',
  'MODULE_BINASCII_STATE': 'yes',
  'MODULE_CMATH_DEPS': './Modules/_math.h',
@@ -776,8 +776,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_XXLIMITED_35_STATE': 'yes',
  'MODULE_XXLIMITED_STATE': 'yes',
  'MODULE_XXSUBTYPE_LDFLAGS': '',
- 'MODULE_ZLIB_CFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
- 'MODULE_ZLIB_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+ 'MODULE_ZLIB_CFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
+ 'MODULE_ZLIB_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
                         '-lz',
  'MODULE_ZLIB_STATE': 'yes',
  'MODULE__ABC_LDFLAGS': '',
@@ -830,9 +830,9 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__ELEMENTTREE_STATE': 'yes',
  'MODULE__FUNCTOOLS_LDFLAGS': '',
  'MODULE__GDBM_STATE': 'missing',
- 'MODULE__HASHLIB_CFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
+ 'MODULE__HASHLIB_CFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
  'MODULE__HASHLIB_DEPS': './Modules/hashlib.h',
- 'MODULE__HASHLIB_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib64    '
+ 'MODULE__HASHLIB_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib64    '
                             '-lcrypto',
  'MODULE__HASHLIB_STATE': 'yes',
  'MODULE__HEAPQ_STATE': 'yes',
@@ -843,8 +843,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__JSON_STATE': 'yes',
  'MODULE__LOCALE_LDFLAGS': '',
  'MODULE__LSPROF_STATE': 'yes',
- 'MODULE__LZMA_CFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
- 'MODULE__LZMA_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+ 'MODULE__LZMA_CFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
+ 'MODULE__LZMA_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
                          '-llzma',
  'MODULE__LZMA_STATE': 'yes',
  'MODULE__MD5_DEPS': './Modules/hashlib.h',
@@ -885,12 +885,12 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__SQLITE3_LDFLAGS': '-lsqlite3',
  'MODULE__SQLITE3_STATE': 'yes',
  'MODULE__SRE_LDFLAGS': '',
- 'MODULE__SSL_CFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
+ 'MODULE__SSL_CFLAGS': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
  'MODULE__SSL_DEPS': './Modules/_ssl.h ./Modules/_ssl/cert.c '
                      './Modules/_ssl/debughelpers.c ./Modules/_ssl/misc.c '
                      './Modules/_ssl_data.h ./Modules/_ssl_data_111.h '
                      './Modules/_ssl_data_300.h ./Modules/socketmodule.h',
- 'MODULE__SSL_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib64   '
+ 'MODULE__SSL_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib64   '
                         '-lssl -lcrypto',
  'MODULE__SSL_STATE': 'yes',
  'MODULE__STATISTICS_LDFLAGS': '-lm',
@@ -919,8 +919,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MVWDELCH_IS_EXPRESSION': 1,
  'NO_AS_NEEDED': '',
  'OBJECT_OBJS': '\\',
- 'OPENSSL_INCLUDES': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
- 'OPENSSL_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib64',
+ 'OPENSSL_INCLUDES': '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
+ 'OPENSSL_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib64',
  'OPENSSL_LIBS': '-lssl -lcrypto',
  'OPENSSL_RPATH': '',
  'OPT': '-DNDEBUG -g -fwrapv -O3 -Wall',
@@ -960,56 +960,56 @@ build_time_vars = {'ABIFLAGS': '',
  'PYTHON_OBJS': '\\',
  'PY_BUILTIN_HASHLIB_HASHES': '"md5,sha1,sha256,sha512,sha3,blake2"',
  'PY_BUILTIN_MODULE_CFLAGS': '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -O2 '
-                             '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                             '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                              '-std=c11 -Wextra -Wno-unused-parameter '
                              '-Wno-missing-field-initializers '
                              '-Wstrict-prototypes '
                              '-Werror=implicit-function-declaration '
                              '-fvisibility=hidden  -I./Include/internal -I. '
                              '-I./Include '
-                             '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                             '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                              '-fPIC -DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -O2 '
-              '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
+              '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
  'PY_CFLAGS_NODIST': '-std=c11 -Wextra -Wno-unused-parameter '
                      '-Wno-missing-field-initializers -Wstrict-prototypes '
                      '-Werror=implicit-function-declaration '
                      '-fvisibility=hidden  -I./Include/internal',
  'PY_COERCE_C_LOCALE': 1,
  'PY_CORE_CFLAGS': '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -O2 '
-                   '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                   '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                    '-std=c11 -Wextra -Wno-unused-parameter '
                    '-Wno-missing-field-initializers -Wstrict-prototypes '
                    '-Werror=implicit-function-declaration -fvisibility=hidden  '
                    '-I./Include/internal -I. -I./Include '
-                   '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                   '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                    '-fPIC -DPy_BUILD_CORE',
- 'PY_CORE_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
-                    '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+ 'PY_CORE_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
+                    '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
                     '-Wl,--enable-new-dtags',
  'PY_CPPFLAGS': '-I. -I./Include '
-                '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include',
+                '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include',
  'PY_ENABLE_SHARED': 1,
  'PY_FORMAT_SIZE_T': '"z"',
- 'PY_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
-               '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+ 'PY_LDFLAGS': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
+               '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
                '-Wl,--enable-new-dtags',
  'PY_LDFLAGS_NODIST': '',
- 'PY_LDFLAGS_NOLTO': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
-                     '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib '
+ 'PY_LDFLAGS_NOLTO': '-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
+                     '-Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib '
                      '-Wl,--enable-new-dtags',
  'PY_SQLITE_ENABLE_LOAD_EXTENSION': 0,
  'PY_SQLITE_HAVE_SERIALIZE': 0,
  'PY_SSL_DEFAULT_CIPHERS': 1,
  'PY_SSL_DEFAULT_CIPHER_STRING': 0,
  'PY_STDMODULE_CFLAGS': '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -O2 '
-                        '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                        '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                         '-std=c11 -Wextra -Wno-unused-parameter '
                         '-Wno-missing-field-initializers -Wstrict-prototypes '
                         '-Werror=implicit-function-declaration '
                         '-fvisibility=hidden  -I./Include/internal -I. '
                         '-I./Include '
-                        '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include '
+                        '-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include '
                         '-fPIC',
  'PY_SUPPORT_TIER': 1,
  'Py_DEBUG': 0,
@@ -1022,8 +1022,8 @@ build_time_vars = {'ABIFLAGS': '',
  'READELF': 'readelf',
  'RESSRCDIR': 'Mac/Resources/framework',
  'RETSIGTYPE': 'void',
- 'RUNSHARED': 'LD_LIBRARY_PATH=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8',
- 'SCRIPTDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib',
+ 'RUNSHARED': 'LD_LIBRARY_PATH=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8',
+ 'SCRIPTDIR': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib',
  'SETPGRP_HAVE_ARG': 0,
  'SHELL': '/bin/sh',
  'SHLIBS': '-lpthread -ldl  -lutil',
@@ -1066,10 +1066,10 @@ build_time_vars = {'ABIFLAGS': '',
  'SYS_SELECT_WITH_SYS_TIME': 1,
  'TESTOPTS': '',
  'TESTPATH': '',
- 'TESTPYTHON': 'LD_LIBRARY_PATH=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8 '
+ 'TESTPYTHON': 'LD_LIBRARY_PATH=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8 '
                './python -E',
  'TESTPYTHONOPTS': '',
- 'TESTRUNNER': 'LD_LIBRARY_PATH=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8 '
+ 'TESTRUNNER': 'LD_LIBRARY_PATH=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8 '
                './python -E ./Tools/scripts/run_tests.py',
  'TESTSUBDIRS': 'ctypes/test \\',
  'TESTTIMEOUT': 1200,
@@ -1084,8 +1084,8 @@ build_time_vars = {'ABIFLAGS': '',
  'UPDATE_FILE': './Tools/scripts/update_file.py',
  'USE_COMPUTED_GOTOS': 0,
  'VERSION': '3.11',
- 'WASM_ASSETS_DIR': './home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host',
- 'WASM_STDLIB': './home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/python3.11/os.py',
+ 'WASM_ASSETS_DIR': './home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host',
+ 'WASM_STDLIB': './home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/python3.11/os.py',
  'WHEEL_PKG_DIR': '',
  'WINDOW_HAS_FLAGS': 1,
  'WITH_DECIMAL_CONTEXTVAR': 1,
@@ -1100,9 +1100,9 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8',
- 'abs_srcdir': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8',
- 'datarootdir': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share',
- 'exec_prefix': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host',
- 'prefix': '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host',
+ 'abs_builddir': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8',
+ 'abs_srcdir': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8',
+ 'datarootdir': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share',
+ 'exec_prefix': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host',
+ 'prefix': '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host',
  'srcdir': '.'}

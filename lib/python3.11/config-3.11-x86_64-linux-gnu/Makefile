@@ -31,8 +31,8 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 VERSION=	3.11
 srcdir=		.
 
-abs_srcdir=	/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8
-abs_builddir=	/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8
+abs_srcdir=	/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8
+abs_builddir=	/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8
 
 
 CC=		/usr/bin/gcc -pthread
@@ -82,7 +82,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -g -fwrapv -O3 -Wall
 BASECFLAGS=	 -Wsign-compare
 BASECPPFLAGS=	
-CONFIGURE_CFLAGS=	-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include
+CONFIGURE_CFLAGS=	-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -94,8 +94,8 @@ CONFIGURE_LDFLAGS_NODIST=
 # LDFLAGS_NOLTO is an extra flag to disable lto. It is used to speed up building
 # of _bootstrap_python and _freeze_module tools, which don't need LTO.
 CONFIGURE_LDFLAGS_NOLTO=
-CONFIGURE_CPPFLAGS=	-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include
-CONFIGURE_LDFLAGS=	-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -Wl,--enable-new-dtags
+CONFIGURE_CPPFLAGS=	-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include
+CONFIGURE_LDFLAGS=	-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -Wl,--enable-new-dtags
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -134,7 +134,7 @@ MULTIARCH=	x86_64-linux-gnu
 MULTIARCH_CPPFLAGS = -DMULTIARCH=\"x86_64-linux-gnu\"
 
 # Install prefix for architecture-independent files
-prefix=		/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+prefix=		/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host
 
 # Install prefix for architecture-dependent files
 exec_prefix=	${prefix}
@@ -201,7 +201,7 @@ LIPO_INTEL64_FLAGS=
 OTHER_LIBTOOL_OPT=
 
 # Environment to run shared python without installed libraries
-RUNSHARED=       LD_LIBRARY_PATH=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/build/host-python3-3.11.8
+RUNSHARED=       LD_LIBRARY_PATH=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/build/host-python3-3.11.8
 
 # ensurepip options
 ENSUREPIP=      no
@@ -211,9 +211,9 @@ LIBMPDEC_A= Modules/_decimal/libmpdec/libmpdec.a
 LIBEXPAT_A= Modules/expat/libexpat.a
 
 # OpenSSL options for setup.py so sysconfig can pick up AC_SUBST() vars.
-OPENSSL_INCLUDES=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include 
+OPENSSL_INCLUDES=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include 
 OPENSSL_LIBS=-lssl -lcrypto 
-OPENSSL_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib64 
+OPENSSL_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib64 
 OPENSSL_RPATH=
 
 # Module state, compiler flags and linker flags
@@ -313,21 +313,21 @@ MODULE__SQLITE3_LDFLAGS=-lsqlite3
 MODULE__TKINTER_STATE=missing
 MODULE__UUID_STATE=missing
 MODULE_ZLIB_STATE=yes
-MODULE_ZLIB_CFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include 
-MODULE_ZLIB_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -lz 
+MODULE_ZLIB_CFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include 
+MODULE_ZLIB_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -lz 
 MODULE_BINASCII_STATE=yes
-MODULE_BINASCII_CFLAGS=-DUSE_ZLIB_CRC32 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include 
-MODULE_BINASCII_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -lz 
+MODULE_BINASCII_CFLAGS=-DUSE_ZLIB_CRC32 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include 
+MODULE_BINASCII_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -lz 
 MODULE__BZ2_STATE=missing
 MODULE__LZMA_STATE=yes
-MODULE__LZMA_CFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include 
-MODULE__LZMA_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -llzma 
+MODULE__LZMA_CFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include 
+MODULE__LZMA_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -llzma 
 MODULE__SSL_STATE=yes
-MODULE__SSL_CFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include 
-MODULE__SSL_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib64   -lssl -lcrypto 
+MODULE__SSL_CFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include 
+MODULE__SSL_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib64   -lssl -lcrypto 
 MODULE__HASHLIB_STATE=yes
-MODULE__HASHLIB_CFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include 
-MODULE__HASHLIB_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib64    -lcrypto
+MODULE__HASHLIB_CFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include 
+MODULE__HASHLIB_LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib64    -lcrypto
 MODULE__TESTCAPI_STATE=disabled
 MODULE__TESTCLINIC_STATE=disabled
 MODULE__TESTINTERNALCAPI_STATE=disabled
@@ -350,7 +350,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host' '--sysconfdir=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/etc' '--localstatedir=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/var' '--enable-shared' '--disable-static' '--disable-gtk-doc' '--disable-gtk-doc-html' '--disable-doc' '--disable-docs' '--disable-documentation' '--disable-debug' '--with-xmlto=no' '--with-fop=no' '--disable-nls' '--disable-dependency-tracking' '--without-ensurepip' '--without-cxx-main' '--disable-sqlite3' '--disable-tk' '--with-expat=system' '--disable-codecs-cjk' '--disable-nis' '--enable-unicodedata' '--disable-test-modules' '--disable-idle3' '--disable-uuid' '--disable-ossaudiodev' '--disable-ipv6' '--disable-bzip2' '--disable-curses' 'PKG_CONFIG=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/pkg-config' 'PKG_CONFIG_LIBDIR=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/pkgconfig:/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/pkgconfig' 'CC=/usr/bin/gcc' 'CFLAGS=-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include' 'LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -Wl,--enable-new-dtags' 'CPPFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include' 'CPP=/usr/bin/cpp'
+CONFIG_ARGS=	 '--prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host' '--sysconfdir=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/etc' '--localstatedir=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/var' '--enable-shared' '--disable-static' '--disable-gtk-doc' '--disable-gtk-doc-html' '--disable-doc' '--disable-docs' '--disable-documentation' '--disable-debug' '--with-xmlto=no' '--with-fop=no' '--disable-nls' '--disable-dependency-tracking' '--without-ensurepip' '--without-cxx-main' '--disable-sqlite3' '--disable-tk' '--with-expat=system' '--disable-codecs-cjk' '--disable-nis' '--enable-unicodedata' '--disable-test-modules' '--disable-idle3' '--disable-uuid' '--disable-ossaudiodev' '--disable-ipv6' '--disable-bzip2' '--disable-curses' 'PKG_CONFIG=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/pkg-config' 'PKG_CONFIG_LIBDIR=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/pkgconfig:/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/pkgconfig' 'CC=/usr/bin/gcc' 'CFLAGS=-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include' 'LDFLAGS=-L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -Wl,-rpath,/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -Wl,--enable-new-dtags' 'CPPFLAGS=-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include' 'CPP=/usr/bin/cpp'
 
 # disabled extensions
 DISABLED_EXTENSIONS=	 ossaudiodev _sqlite3 _codecs_kr _codecs_jp _codecs_cn _codecs_tw _codecs_hk _codecs_iso2022 nis _bz2 _tkinter _curses _curses_panel _uuid
@@ -470,7 +470,7 @@ IO_OBJS=	\
 
 ##########################################################################
 
-LIBFFI_INCLUDEDIR=	/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include
+LIBFFI_INCLUDEDIR=	/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include
 
 ##########################################################################
 # Parser

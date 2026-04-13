@@ -3,11 +3,18 @@
  * Copyright (c) 2024 Rockchip Electronics Co., Ltd.
  */
 
-#ifndef __RK_MPP_CFG_H__
-#define __RK_MPP_CFG_H__
+#ifndef RK_MPP_CFG_H
+#define RK_MPP_CFG_H
 
 #include "rk_type.h"
 #include "mpp_err.h"
+
+typedef enum MppCfgStrFmt_e {
+    MPP_CFG_STR_FMT_LOG,
+    MPP_CFG_STR_FMT_JSON,
+    MPP_CFG_STR_FMT_TOML,
+    MPP_CFG_STR_FMT_BUTT,
+} MppCfgStrFmt;
 
 typedef void* MppSysCfg;
 
@@ -37,4 +44,4 @@ void mpp_sys_cfg_show(void);
 }
 #endif
 
-#endif /*__RK_MPP_CFG_H__*/
+#endif /* RK_MPP_CFG_H */

@@ -3,11 +3,10 @@
  * Copyright (c) 2015 Rockchip Electronics Co., Ltd.
  */
 
-#ifndef __RK_VENC_CFG_H__
-#define __RK_VENC_CFG_H__
+#ifndef RK_VENC_CFG_H
+#define RK_VENC_CFG_H
 
-#include "rk_type.h"
-#include "mpp_err.h"
+#include "rk_mpp_cfg.h"
 
 typedef void* MppEncCfg;
 
@@ -15,7 +14,11 @@ typedef void* MppEncCfg;
 extern "C" {
 #endif
 
+/* userspace encoder config init */
 MPP_RET mpp_enc_cfg_init(MppEncCfg *cfg);
+/* kernel encoder config init */
+MPP_RET mpp_enc_cfg_init_k(MppEncCfg *cfg);
+/* common config deinit */
 MPP_RET mpp_enc_cfg_deinit(MppEncCfg cfg);
 
 MPP_RET mpp_enc_cfg_set_s32(MppEncCfg cfg, const char *name, RK_S32 val);
@@ -33,9 +36,11 @@ MPP_RET mpp_enc_cfg_get_ptr(MppEncCfg cfg, const char *name, void **val);
 MPP_RET mpp_enc_cfg_get_st(MppEncCfg cfg, const char *name, void *val);
 
 void mpp_enc_cfg_show(void);
+MPP_RET mpp_enc_cfg_extract(MppEncCfg cfg, MppCfgStrFmt fmt, char **buf);
+MPP_RET mpp_enc_cfg_apply(MppEncCfg cfg, MppCfgStrFmt fmt, char *buf);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif /*__RK_VENC_CFG_H__*/
+#endif /* RK_VENC_CFG_H */

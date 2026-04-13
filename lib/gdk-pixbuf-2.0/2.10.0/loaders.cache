@@ -2,7 +2,7 @@
 # Automatically generated file, do not edit
 # Created by gdk-pixbuf-query-loaders from gdk-pixbuf-2.42.10
 #
-# LoaderDir = /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/gdk-pixbuf-2.0/2.10.0/loaders
+# LoaderDir = /home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/gdk-pixbuf-2.0/2.10.0/loaders
 #
 "lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ani.so"
 "ani" 4 "gdk-pixbuf" "Windows animated cursor" "LGPL"

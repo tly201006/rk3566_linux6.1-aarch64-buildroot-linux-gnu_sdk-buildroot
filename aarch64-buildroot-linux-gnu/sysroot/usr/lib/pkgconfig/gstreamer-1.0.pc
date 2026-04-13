@@ -13,7 +13,7 @@ pluginscannerdir=${libexecdir}/gstreamer-1.0
 
 Name: gstreamer-1.0
 Description: Streaming media framework
-Version: 1.24.11
+Version: 1.24.13
 Requires: glib-2.0 >=  2.64.0, gobject-2.0
 Requires.private: gmodule-no-export-2.0
 Libs: -L${libdir} -lgstreamer-1.0

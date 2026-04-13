@@ -7,7 +7,7 @@
 
 BEGIN {
     # tailor this to suit your system
-    _pw_awklib = "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/libexec/awk/"
+    _pw_awklib = "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/libexec/awk/"
 }
 
 function _pw_init(    oldfs, oldrs, olddol0, pwcat, using_fw, using_fpat)

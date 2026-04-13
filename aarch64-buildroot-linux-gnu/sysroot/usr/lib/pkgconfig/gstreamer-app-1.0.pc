@@ -13,7 +13,7 @@ pluginscannerdir=${libexecdir}/gstreamer-1.0
 
 Name: gstreamer-app-1.0
 Description: Helper functions and base classes for application integration
-Version: 1.24.11
+Version: 1.24.13
 Requires: gstreamer-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0
 Libs: -L${libdir} -lgstapp-1.0
 Cflags: -I${includedir}/gstreamer-1.0

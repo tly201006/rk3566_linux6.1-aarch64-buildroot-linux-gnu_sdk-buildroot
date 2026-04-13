@@ -36,7 +36,7 @@ PACKAGE=intltool
 VERSION=0.51.0
 
 # Directory names.
-prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host
 
 case "`uname`" in
 MINGW32*)

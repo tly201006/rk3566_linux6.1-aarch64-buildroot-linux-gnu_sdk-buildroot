@@ -2,7 +2,7 @@
 #   Copyright (C) 2011-2020, Yann Collet.
 #   BSD 2-Clause License (http://www.opensource.org/licenses/bsd-license.php)
 
-prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host
 libdir=${prefix}/lib
 includedir=${prefix}/include
 

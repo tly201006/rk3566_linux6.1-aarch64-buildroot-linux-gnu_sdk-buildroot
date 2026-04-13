@@ -11,7 +11,7 @@
  * Source directory  : 
  * Configuration time: undisclosed-time
  * Configured by     : 
- * Target system     : Buildroot -g227af7de1-dirty
+ * Target system     : Buildroot -g2c3c90c33-dirty
  */
 
 #ifndef _config_h_
@@ -1417,9 +1417,9 @@
  *	This symbol is intended to be used along with CPPRUN in the same manner
  *	symbol CPPMINUS is used with CPPSTDIN. It contains either "-" or "".
  */
-#define CPPSTDIN "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/aarch64-buildroot-linux-gnu-gcc -E -P"
+#define CPPSTDIN "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/aarch64-buildroot-linux-gnu-gcc -E -P"
 #define CPPMINUS "-"
-#define CPPRUN "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/aarch64-buildroot-linux-gnu-gcc -E -P"
+#define CPPRUN "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/aarch64-buildroot-linux-gnu-gcc -E -P"
 #define CPPLAST "-"
 
 /* HAS_ACCESS:

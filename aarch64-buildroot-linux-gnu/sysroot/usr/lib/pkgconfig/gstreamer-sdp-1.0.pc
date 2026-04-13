@@ -13,7 +13,7 @@ pluginscannerdir=${libexecdir}/gstreamer-1.0
 
 Name: gstreamer-sdp-1.0
 Description: SDP helper functions
-Version: 1.24.11
+Version: 1.24.13
 Requires: gstreamer-1.0 >=  1.24.0
 Requires.private: gstreamer-rtp-1.0, gstreamer-audio-1.0, gstreamer-tag-1.0, gstreamer-pbutils-1.0, gstreamer-video-1.0, gstreamer-base-1.0 >=  1.24.0, zlib, gio-2.0 >=  2.64.0, librga
 Libs: -L${libdir} -lgstsdp-1.0

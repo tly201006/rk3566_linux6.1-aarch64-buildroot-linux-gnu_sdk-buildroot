@@ -11,7 +11,7 @@ dlname='libudev.so.1'
 library_names='libudev.so.1.6.3 libudev.so.1 libudev.so'
 
 # The name of the static archive.
-old_library='libudev.a'
+old_library=''
 
 # Linker flags that cannot go in dependency_libs.
 inherited_linker_flags=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib'
+libdir='/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/aarch64-buildroot-linux-gnu/sysroot/usr/lib'

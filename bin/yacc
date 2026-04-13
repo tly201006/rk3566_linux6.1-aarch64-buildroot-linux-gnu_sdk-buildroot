@@ -100,7 +100,7 @@ func_find_prefixes ()
   done
 }
 if test "yes" = yes; then
-  prefix="/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host"
+  prefix="/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host"
   exec_prefix="${prefix}"
   bindir="${exec_prefix}/bin"
   orig_installdir="$bindir" # see Makefile.am's *_SCRIPTS variables
@@ -117,7 +117,7 @@ else
   }
 fi
 
-prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host
 exec_prefix=${prefix}
 bindir=`relocate "${exec_prefix}/bin"`
 exec "$bindir/bison" -y "$@"

@@ -1,6 +1,6 @@
 #! /bin/sh
 
-prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host
+prefix=/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host
 exec_prefix=${prefix}
 exec_prefix_set=no
 includedir=${prefix}/include
@@ -65,7 +65,7 @@ while test $# -gt 0; do
 	;;
 
     --plugins)
-	echo /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/libxslt-plugins
+	echo /home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/libxslt-plugins
 	exit 0
 	;;
 
@@ -74,7 +74,7 @@ while test $# -gt 0; do
 	;;
 
     --cflags)
-        cflags="-I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include/libxml2   "
+        cflags="-I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include/libxml2   "
         if test "$includedir" != "/usr/include"; then
             cflags="$cflags -I${includedir}"
         fi
@@ -83,9 +83,9 @@ while test $# -gt 0; do
     --libs)
         if [ "$2" = "--dynamic" ]; then
             shift
-            libs="-lxslt -L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -lxml2 "
+            libs="-lxslt -L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -lxml2 "
         else
-            libs="-lxslt -L/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib -lxml2  -lm"
+            libs="-lxslt -L/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib -lxml2  -lm"
         fi
 
         if [ "-L${libdir}" != "-L/usr/lib" -a "-L${libdir}" != "-L/usr/lib64" ]; then

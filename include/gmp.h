@@ -2332,7 +2332,7 @@ enum
 
 /* Define CC and CFLAGS which were used to build this version of GMP */
 #define __GMP_CC "/usr/bin/gcc"
-#define __GMP_CFLAGS "-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/include"
+#define __GMP_CFLAGS "-O2 -I/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/include"
 
 /* Major version number is the value of __GNU_MP__ too, above. */
 #define __GNU_MP_VERSION            6

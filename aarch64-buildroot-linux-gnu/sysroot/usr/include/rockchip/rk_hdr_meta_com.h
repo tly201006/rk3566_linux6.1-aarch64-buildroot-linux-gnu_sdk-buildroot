@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-#ifndef __RK_HDR_META_COM_H__
-#define __RK_HDR_META_COM_H__
+#ifndef RK_HDR_META_COM_H
+#define RK_HDR_META_COM_H
 
 #include "rk_type.h"
 
@@ -39,7 +39,7 @@ typedef enum HdrFormat_e {
     HDR10PLUS   = 8,
 //  RESERVED9 = 9, //reserved for hdr10+
 //  RESERVED10 = 10,//reserved for hdr10+
-    DOLBY       = 11,
+    DLBY        = 11,
 //  RESERVED12 = 12, //reserved for other dynamic hdr format
 //  RESERVED13 = 13, //reserved for  other dynamic hdr format
     HDR_FORMAT_MAX,
@@ -102,7 +102,7 @@ typedef struct RkMetaHdrHeader_t {
 
     /* For payload identification */
     RK_U16  version;            /* payload structure version                    */
-    RK_U16  hdr_format;         /* HDR protocol: HDR10, HLG, Dolby, HDRVivid ...    */
+    RK_U16  hdr_format;         /* HDR protocol: HDR10, HLG, Dlby, HDRVivid ...    */
     RK_U16  hdr_payload_type;   /* HDR data type: static data, dynamic data ... */
     RK_U16  video_format;       /* video format: H.264, H.265, AVS2 ...         */
 
@@ -110,7 +110,7 @@ typedef struct RkMetaHdrHeader_t {
     RK_U32  reserve[4];
 
     /* payload data aligned to 32bits */
-    RK_U32  payload[];
+    RK_U32  payload[0];
 } RkMetaHdrHeader;
 
 #ifdef __cplusplus

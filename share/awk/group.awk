@@ -7,7 +7,7 @@
 
 BEGIN {
     # Change to suit your system
-    _gr_awklib = "/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/libexec/awk/"
+    _gr_awklib = "/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/libexec/awk/"
 }
 
 function _gr_init(    oldfs, oldrs, olddol0, grcat,

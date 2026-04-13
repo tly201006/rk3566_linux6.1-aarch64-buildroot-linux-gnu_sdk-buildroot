@@ -32,7 +32,7 @@ use warnings FATAL => 'all';
 my $buildauxdir;
 BEGIN
 {
-  my $pkgdatadir = $ENV{'autom4te_perllibdir'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/share/autoconf';
+  my $pkgdatadir = $ENV{'autom4te_perllibdir'} || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/share/autoconf';
   unshift @INC, $pkgdatadir;
 
   $buildauxdir = $ENV{'autom4te_buildauxdir'} || $pkgdatadir . '/build-aux';
@@ -116,9 +116,9 @@ Written by David J. MacKenzie and Akim Demaille.
 ";
 
 # Lib files.
-my $autoconf    = $ENV{'AUTOCONF'}    || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/autoconf';
-my $autoheader  = $ENV{'AUTOHEADER'}  || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/autoheader';
-my $autom4te    = $ENV{'AUTOM4TE'}    || '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/autom4te';
+my $autoconf    = $ENV{'AUTOCONF'}    || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/autoconf';
+my $autoheader  = $ENV{'AUTOHEADER'}  || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/autoheader';
+my $autom4te    = $ENV{'AUTOM4TE'}    || '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/autom4te';
 my $automake    = $ENV{'AUTOMAKE'}    || 'automake';
 my $aclocal     = $ENV{'ACLOCAL'}     || 'aclocal';
 my $libtoolize  = $ENV{'LIBTOOLIZE'}  || 'libtoolize';

@@ -12,6 +12,6 @@ typelibdir=${libdir}/girepository-1.0
 
 Name: gstreamer-plugins-bad-1.0
 Description: Streaming media framework, bad plugins libraries
-Version: 1.24.11
+Version: 1.24.13
 Requires: gstreamer-1.0 >=  1.24.0
 Cflags: -I${includedir}/gstreamer-1.0

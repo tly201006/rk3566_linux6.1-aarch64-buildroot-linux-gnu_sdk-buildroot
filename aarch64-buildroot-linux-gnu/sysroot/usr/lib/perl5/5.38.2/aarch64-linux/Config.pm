@@ -86,7 +86,7 @@ sub AUTOLOAD {
 tie %Config, 'Config', {
     archlibexp => '/usr/lib/perl5/5.38.2/aarch64-linux',
     archname => 'aarch64-linux',
-    cc => '/home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/bin/aarch64-buildroot-linux-gnu-gcc',
+    cc => '/home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/bin/aarch64-buildroot-linux-gnu-gcc',
     d_readlink => 'define',
     d_symlink => 'define',
     dlext => 'so',

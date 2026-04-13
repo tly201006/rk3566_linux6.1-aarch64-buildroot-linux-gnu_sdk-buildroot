@@ -13,7 +13,7 @@ pluginscannerdir=${libexecdir}/gstreamer-1.0
 
 Name: gstreamer-audio-1.0
 Description: Audio helper functions and base classes
-Version: 1.24.11
+Version: 1.24.13
 Requires: gstreamer-1.0 >=  1.24.0, gstreamer-base-1.0 >=  1.24.0
 Requires.private: gstreamer-tag-1.0, zlib
 Libs: -L${libdir} -lgstaudio-1.0

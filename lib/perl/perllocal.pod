@@ -1,10 +1,10 @@
-=head2 Sat Dec 13 10:35:13 2025: C<Module> L<XML::Parser|XML::Parser>
+=head2 Wed Mar 25 01:24:49 2026: C<Module> L<XML::Parser|XML::Parser>
 
 =over 4
 
 =item *
 
-C<installed into: /home/tangly/work2/rklinux/rk3566_linux6.1_20251031/buildroot/output/rockchip_rk3566/host/lib/perl>
+C<installed into: /home/tangly/work2/rklinux/rk3566_linux6.1_20260227/buildroot/output/rockchip_rk3566_evb2_lp4x_v10/rockchip_rk3566/host/lib/perl>
 
 =item *
 
